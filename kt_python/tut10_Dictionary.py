@@ -24,3 +24,6 @@ print(d4)
 print(d4.keys())
 print(d4.values())
 print(d4.items())
+
+# Exercise
+# # Create a dictionary and take input from user and return the meaning of word from dictionary

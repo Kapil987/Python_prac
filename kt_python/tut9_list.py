@@ -1,10 +1,11 @@
-# List -- smilar to String access , enclosed in square brackets, Mutable
+# List -- smilar to String access , enclosed in [] square brackets, Mutable
+# () -- Parenthesis , {} -- Curly braces
 grocery = ["Harpic", "vim bar", "deodrant", "bhindi", 
-"lolipop", 56]
+           "lolipop", 56]
 
-# print (grocery)
-# print(grocery[0])
-# print(grocery[5])
+print (grocery)
+print(grocery[0])
+print(grocery[5])
 # print(grocery[6])
 # print(grocery[:])
 num = [2, 7, 9, 11, 3]
@@ -43,9 +44,9 @@ tp = (1,2,3)
 # tp[1] = 100 # TypeError: 'tuple' object does not support item assignment
             # Thus shows tupple is immutable
 tp = (1,)    # (1,) when declaring single tupple
-print(type(tp))
+# print(type(tp))
 tp = (1)
-print(type(tp))
+# print(type(tp))
 ## Swaping of two numbers
 a = 10
 b = 50
@@ -54,4 +55,4 @@ b = 50
 # b = temp
 # print("a=",a,"b=",b)
 a , b = b, a
-print("a=",a,"b=",b)
+# print("a=",a,"b=",b)
