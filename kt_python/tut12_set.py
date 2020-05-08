@@ -1,4 +1,4 @@
-# sets value dosent change, define via () but access via [], retain only unique values
+# sets value dosent change, define via () but access via [], retain only unique values -- imp 
 s = set()
 print(type(s))
 l = [1,2,3,4,4,4]
