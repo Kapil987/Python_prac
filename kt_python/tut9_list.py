@@ -69,3 +69,35 @@ print(a, b)
 # b = temp
 a , b = b , a
 print(a, b)
+
+##
+# Something is mutable only when we are able to change the values held in the memory location without changing the memory location itself.
+# The trick is: If you find that the memory location before and after the change are the same, it is mutable.
+# For example, list is mutable. How?
+
+# a = ['hello']
+# print(a)
+# print(hex(id(a)))
+# # 139767295067632
+
+# # # Now let's modify
+# # #1
+# a[0] = "hye new"
+# print(a)
+# print(hex(id(a)))       # mutable
+
+# ['hello new']
+# Now that we have changed "a", let's see the location of a
+# >> id(a)
+# 139767295067632
+# so it is the same as before. So we mutated a. So list is mutable.
+# A string is immutable. How do we prove it?
+
+# b = "hello"
+# # print(b[0])
+# print("b=",hex(id(b)))       # immutable
+# # 'h'
+# #Now let's modify it
+# # print(hex(id(b)))       # immutable
+# b[0] = 'n'
+# print(b)
