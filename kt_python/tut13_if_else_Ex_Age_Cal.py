@@ -54,16 +54,23 @@ list1 = [1, 2, 3, 4]
 # The above can be replace by print
 # print(var3 not in list1)      # output is form of boolean
 
+# One liner comes with a trade-off readability
+
+# a = int (input("enter a \n"))
+# b = int (input("enter b \n"))
+
+# if a > b: print("a is greater")
+# print("a is greater") if a < b else print("b is greater")
 
 # Quiz
-print("What is your age?")
-age = int(input())
-if age<18:
-    print("You cannot drive")
-elif age == 18:
-    print("We will think about you")
-else:
-    print("You can drive")
+# print("What is your age?")
+# age = int(input())
+# if age<18:
+#     print("You cannot drive")
+# elif age == 18:
+#     print("We will think about you")
+# else:
+#     print("You can drive")
 
 # but if you enter 7777 it will say you can drive this is Problem!!!
 

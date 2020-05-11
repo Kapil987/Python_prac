@@ -71,7 +71,8 @@ a , b = b , a
 print(a, b)
 
 ##
-# Something is mutable only when we are able to change the values held in the memory location without changing the memory location itself.
+# Something is mutable only when we are able to change the values held in the memory location 
+# without changing the memory location itself.
 # The trick is: If you find that the memory location before and after the change are the same, it is mutable.
 # For example, list is mutable. How?
 
