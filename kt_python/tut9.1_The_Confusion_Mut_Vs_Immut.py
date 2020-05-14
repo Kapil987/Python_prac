@@ -30,8 +30,11 @@ tup = (1, 2, 3) # Tuples are immutable, elements cannot be modified ,
 # Case 2: Mem loc: 200, Contentents are not changed refrence is changed
 a = [1, 2]  # its a list which is mutable
 b = [3, 4]  # # its a list
+# a[0] = 6
+# print(a)
 tup = (a, b)
 tup[0].append(10)   # here tup is bhehaving as a list, as elements are mutable[List]
+# tup[0] = 6
 # print("Before",tup)
 # print(id(tup))
 

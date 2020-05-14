@@ -32,7 +32,7 @@ dict1 = dict(list3)         #Type casting list to dictionary
 # Problem: Will the following work?  Ans: nop because ['Biscuit', 1] is at 0th location ["Namkeen",5] is at 1st location 
                                     # so its dificuilt to traverse between 0th and 1st location to get value "1" for biscuit
 # for item,count in dict1:
-#     print("item =",item,",count =",count)
+    print("item =",item,"count =",count)
 
 # Solution
 # for item,count in dict1.items():

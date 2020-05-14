@@ -8,14 +8,16 @@
 "b" - Binary mode
 "+" - Read and Write
 """
+
 ## To read a file will need a file pointer
 # open("demo.txt") # no use of this open so will file pointer
 # f = open("demo.txt")
 # content = f.read()
+# # f.write("afdfd")
 # print(content)
 # f.close()       # Close like we close our fridge after use, Good Practice
 
-## Let specify modes
+## Let specify modes , use power with control
 # f = open("demo.txt","rt")   #Change different modes
 # content = f.read()
 # print(content)
@@ -23,7 +25,7 @@
 
 ## Reading Character by charater
 # f = open("demo.txt","rt")   
-# content = f.read(3)
+# content = f.read(4)
 # print(content)
 # content = f.read(3)     
 # print(content)
@@ -54,12 +56,21 @@
 ## using readline function
 # f = open("demo.txt","rt")   
 # print(f.readline())
-# print(f.readline())
+# # print(f.readline())
 # f.close()      
 
-## using readlines function
+## using readlines function produce output in list format
 # f = open("demo.txt","rt")   
 # print(f.readlines())
 # f.close()      
+
+## Practical use-case for finally
+# try:
+#     f = open("demo.txt")
+#     f.write("did file opened")
+# except:
+#     print("somethin might have went wrong")
+# finally:
+#     f.close()
 
 ## Openig a file and writing it into f.write

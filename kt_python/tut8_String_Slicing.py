@@ -39,7 +39,7 @@ mystr = "We rise as one" # indexation starts from zero
 
 # mystr = "We rise as one"
 # Negative indexing
-print(mystr[-1:0])
+# print(mystr[-1:0])
 # print(mystr[-3:-1]) # [including: excluding(total)]
 # print(mystr[11:13])
 # print(mystr[-14])
@@ -61,5 +61,24 @@ str2 = "hello one"      # after
 # print(str2.replace("second","one"))
 # str2[0] = 'g'
 
+## f string in python
+# val = 'Good'
+# age = 24
+# print(f"Rohan is a {val} boy and his age is {age}")
 
+# p   y   t   h   o   n
+# 0   1   2   3   4   5
+#-6  -5  -4  -3  -2   -1
+
+list1 = "python"
+# print(list1[-2:-5:-1])
+# print(list1[4:1:-1])
+# print(list1[-2:1:-1]) # [-2:-5:-1] = [4:1:-1] = move from 4 to 1 in reverse = [oht]
+# print(list1[-2:1:1])  # Move from 4 to 1 in with positive step1 ie. forward direction not possible
+                      # The step is telling us the direction in case of 1 its forward 
+                      # in case of -1 its backward
+                      # start at index -2, end at index 1 
+                      # with step 1 is impossible, if you have 
+                      # positive step start has to be lower than end
+                      # 
 

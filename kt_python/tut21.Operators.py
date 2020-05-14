@@ -13,7 +13,7 @@ Bitwise Operators
 # print("10 - 3 is", 10-3)
 # print("10 * 3 is", 10*3)
 # print("10 / 3 is", 10/3)
-# print("10 // 3 is", 10//3)      # Floor operator
+# print("10 // 3 is ",10//3)      # Floor operator
 
 ## Assignment Operator 
 # x = 5
@@ -21,26 +21,29 @@ Bitwise Operators
 # x +=5 # x = x + 5
 # print(x)
 
-# Comparison Operator
-# i = 5
+## Comparison Operator
+# i = 6
 # print(i <=5)
 
 # Logical Operators
 # a = True
 # b = False
 # c = 1
-# b = 0
+# # b = 0
 # print("OR = ",a or b)
 # print("AND = ",a and b)
 
 ## Identity Operators
-# x = 5
-# y = 5
-# print ("x is y",x is y)
-# print ("x is not y",x is not y)
+x = 5
+y = 5
+# list1 = [1,2]     # Identity operator doesn't works with list
+# list2 = [1,2]
+# print ("list1 is list2:",list1 == list2)
+# print ("x is y:",x is y)
+# print ("x is not y: ",x is not y)
 
 ## Membership Operators
-list = [1, 4, 7, 9]
+# list = [1, 4, 7, 9]
 # print(9 in list)
 # print( 10 in list)
 # print( 10 not in list)
@@ -49,7 +52,7 @@ list = [1, 4, 7, 9]
 # 0 : 00
 # 1 : 01
 # 2 : 10
-# 3 : 10
-print( 0 & 1)
-print( 0 | 1)
-print(0 | 3)
+# 3 : 11
+# print( 0 & 1)
+# print( 0 | 1)
+# print(0 | 3)
