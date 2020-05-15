@@ -65,12 +65,16 @@
 # f.close()      
 
 ## Practical use-case for finally
-# try:
-#     f = open("demo.txt")
-#     f.write("did file opened")
-# except:
-#     print("somethin might have went wrong")
+def demo():
+    try:
+        f = open("demo.txt")
+        f.write("did file opened")
+    except:
+        print("something might have went wrong in function:",demo.__name__)
+    else:
+        print("All good")
 # finally:
 #     f.close()
+demo()
 
 ## Openig a file and writing it into f.write
