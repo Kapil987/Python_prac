@@ -1,5 +1,3 @@
-
-
 # try:
 #     f = open("demo.txt",'r')    # Try with demo1.txt
 #     print(f.readline())
@@ -8,11 +6,11 @@
 # finally:                        # comment for demo1.txt
 #     f.close()                   # comment for demo1.txt
 
-## File handling with 'with' block , There is no need to call f.close in case of with, it take care of it
+# File handling with 'with' block , There is no need to call f.close in case of with, it take care of it
 # with open("demo.txt",'r') as f:
 #     print(f.readline())
 
-# Question of the day
+## Question of the day
 # with open("demo.txt",'r') as f:
 #     print(f.readline())
 # f = open("demo.txt",'r')
