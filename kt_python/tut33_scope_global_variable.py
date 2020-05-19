@@ -36,7 +36,7 @@
 # def fun1():
 #     # x = 20     # Local , x not in local scope so choose global
 #     m = 8
-#     # x = x + 20
+#     x = x + 20
 #     print("in fun1 x is: ",x)   #30
 
 # fun1()
@@ -72,10 +72,10 @@
 # def outer():
 #     x = 20      # local variable
 #     def inside():
-#         global x
+#          x
 #         x = 88
 #     # print("before calling inside: ",x)
-#     inside()
+#     inside(global)
 #     print("After calling inside: ",x)   # 20
 
 # outer()
