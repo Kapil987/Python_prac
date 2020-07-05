@@ -16,7 +16,19 @@ print("Good Afternoon")
 ## Escape sequence charactors \n , \ , \t , http://python-ds.com/python-3-escape-sequences
 
 # print ("C:\\nKapil") # \n , \\ result to new single \
+# print("lets print new line character= \\n, you see that")
 # print ("Kapil is \na Good \tBoy")
+
+## Quotes doesn't matter
 # print("Good Boy") 
-# print('good boy')       # quotes doesn't matter
+# print('good boy')       
+
+## Quotes doesn't matter
+# print("Good Boy") 
+# print('good boy')       
+
+## Qotes does matter
+# print("lets keep this in quotes 'Hello' ")
+# print('Another way of keeping this in quotes "Hello"')
+# print("Cannot use same quotes inside out "Hello"") # Try this and understand
 
