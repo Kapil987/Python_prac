@@ -6,7 +6,7 @@ class Employee:
         self.name = aname       # name is instance variable and aname is just an argument
         self.salary = asalary
         self.role = arole
-#classmethond used to reduce latency as self is not used , example games
+#class method used to reduce latency as self is not used , example games
 # Benifit of classmethod is that it can be used as an alternative constructor 
     @classmethod    # way to give access to class objects/instances to change class variable ie. no.of.leaves 
     def change_leaves(cls,new_leaves): # cls is just a class which is called by class name or instance name

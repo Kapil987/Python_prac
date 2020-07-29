@@ -15,9 +15,9 @@
 # print(a)
 
 ### Pasing function as an argument
-# def executor (func):    # print is passed as argument here
-#     func("This is")     # func("This is") becomes print("This is")
-# executor(print)
+def executor (func):    # print is passed as argument here
+    func("This is")     # func("This is") becomes print("This is")
+executor(print)
 
 ## Decorator
 def dec1(fun1): #fun1 = who_is_kapil

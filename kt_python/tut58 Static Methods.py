@@ -1,4 +1,4 @@
-# Static methond: used when neither instance or class varibale is accessed, let say
+# Static method: used when neither instance or class varibale is accessed, let say
 # we need to display a info in print that this class is for only employee
 
 class Employee:
@@ -21,7 +21,7 @@ class Employee:
 
 # karan = Employee.from_str("karan-6000-Tutor")
 karan = Employee.from_str("karan-3500-Student")  
-karan.display("Static Method")
-print(karan.display("Static Method"))
-Employee.display("Class Employee")
+# karan.display("Static Method")
+# print(karan.display("Static Method"))
+Employee.display("Class Employee") 
 

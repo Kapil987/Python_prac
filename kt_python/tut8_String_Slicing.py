@@ -37,9 +37,9 @@ mystr = "We rise as one" # indexation starts from zero
 #  W e     r i s e      a s      o  n  e
 #  0 1  2  3 4 5 6  7   8 9  10  11 12 13
 
-# mystr = "We rise as one"
-# Negative indexing
-# print(mystr[-1:0])
+## Negative indexing
+mystr = "We rise as one"
+# print(mystr[-1:0])      #[start:end] not possible to start with -1 and end with 0
 # print(mystr[-3:-1]) # [including: excluding(total)]
 # print(mystr[11:13])
 # print(mystr[-14])

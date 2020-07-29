@@ -17,7 +17,7 @@ print("Good Afternoon")
 
 # print ("C:\\nKapil") # \n , \\ result to new single \
 # print("lets print new line character= \\n, you see that")
-# print ("Kapil is \na Good \tBoy")
+print ("Kapil is \na Good \tBoy")
 
 ## Quotes doesn't matter
 # print("Good Boy") 

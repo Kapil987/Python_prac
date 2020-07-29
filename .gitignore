@@ -47,3 +47,14 @@ Stackoverflow/Question and answeres for stack over flow.docx
 kt_python/user_name.txt
 kt_python/shyam.txt
 kt_python/rahul.txt
+pack_building/Instruction to build python pack.docx
+test_pack/PACK_KAPIL/Licence.txt
+test_pack/PACK_KAPIL/readme.txt
+test_pack/PACK_KAPIL/setup.py
+test_pack/PACK_KAPIL/dist/pack_kapil-0.1-py3-none-any.whl
+test_pack/PACK_KAPIL/dist/pack_kapil-0.1.tar.gz
+test_pack/PACK_KAPIL/pack_kapil/__init__.py
+test_pack/PACK_KAPIL/pack_kapil.egg-info/dependency_links.txt
+test_pack/PACK_KAPIL/pack_kapil.egg-info/PKG-INFO
+test_pack/PACK_KAPIL/pack_kapil.egg-info/SOURCES.txt
+test_pack/PACK_KAPIL/pack_kapil.egg-info/top_level.txt

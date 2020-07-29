@@ -14,17 +14,18 @@ rohan.name =  "rohan"
 rohan.salary = 3000
 rohan.role = "principal"
 
-print(kapil.number_of_leaves)   # Accessing class variable via class object
+# print(kapil.number_of_leaves)   # Accessing class variable via class object
 Employee.number_of_leaves=10    # Changing class variable for all objects
-print("Employee modified leaves print via kapil= ",kapil.number_of_leaves)
+# print("Employee modified leaves print via kapil= ",kapil.number_of_leaves)
 print("\n",rohan.__dict__,"\n")
-print("\n",Employee.__dict__,"\n")
+# print("\n",Employee.__dict__,"\n")
+
 # ## Change class variable via Class objects
-rohan.number_of_leaves =20
+rohan.number_of_leaves = 20 #local variable to rohan
 print("rohan modified leaves= ",rohan.number_of_leaves)     # Make changes only in this object properties
 print("Current Employee.number_of_leaves = ",Employee.number_of_leaves) 
 print("\n",rohan.__dict__,"\n")             # number of leaves attributes/variable gets 
 #                                             # added to rohan object properties
-# print("\n",Employee.__dict__,"\n")
+print("\n",Employee.__dict__,"\n")
 
 ## This means we cannot change Main class varibale via class objects

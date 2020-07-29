@@ -2,26 +2,25 @@
 class Employee:
     no_of_leaves = 8
     var = 1
-    def __init__(self, aname, asalary, arole):  # This is constructor, called by default
-        self.name = aname       # name is instance variable and aname is just an argument
-        self.salary = asalary
-        self.role = arole
-        print("\nConstructor/init function is called for: ",aname)
+    # def __init__(self, aname, asalary):  # This is constructor, called by default
+    #     self.name = aname       # name is instance variable and aname is just an argument
+    #     self.salary = asalary
+    #     # self.role = arole
+    #     print("\nEmp const function is called for: ",aname)
     
     @staticmethod
     def display(string):
-        # print("\nwithout self and without class, This class is for employee only")
-        # print("\nPrinting: " + string)
-        
+        print("\nwithout self and without class, This class is for employee only")
+        print("\nPrinting: " + string)
         return ("###end###")
     
-    @classmethod
-    def from_str(cls, string):
-        params = string.split("-")
-        return cls(params[0],params[1],params[2])
+    # @classmethod
+    # def from_str(cls, string):
+    #     params = string.split("-")
+    #     return cls(params[0],params[1],params[2])
     
     def print_emp(self):
-        print(f"\nName is {self.name} , Salary is {self.salary} and Role is {self.role}")
+        print(f"\nName is {self.name} , Salary is {self.salary}")
 
 class Player:
     no_of_games = 4
@@ -29,7 +28,7 @@ class Player:
     def __init__(self, cname, cgame):
         self.name = cname
         self.game = cgame
-        print("\nPlayer Const is called by: ",cname)
+        print("\nPlayer Const is called by: ",cname) 
 
     def print_details(self):
         print(f"Name is {self.name} and Game is {self.game}")
@@ -41,12 +40,16 @@ class CoolProgrammer(Employee,Player):
     def print_language(self):
         print("\n Language is: ",self.language)
 
-harry = Employee("Harry",255,"Instructor")
-rohan = Employee("Rohan",455,"Student")
+# harry = Employee("Harry",255,"Instructor")
+# rohan = Employee("Rohan",455,"Student")
 
-shubham = Player("Shubham",['Cricket'])
-karan = CoolProgrammer("Karan",8999,"CoolProgrammer")
-# karan = CoolProgrammer("Karan",['Tennis'])      # for Player class
-# karan.print_emp()
+# shubham = Player("Shubham",['Cricket'])
+# karan = CoolProgrammer("Karan",8999,"CoolProgrammer")
+karan = CoolProgrammer("Karan",['Tennis'])      # for Player class
+karan.print_emp()
 # karan.print_language()
 print(karan.var)
+
+#Conclusion: CoolProgrammer(Employee,Player) whoever has first position
+# Employee or Player that class construction is called, if not present
+# then defulat inbuilt constructor is called.   

@@ -2,7 +2,7 @@
 ## Constructor = to make Employee class to take argument
 class Employee:
     no_of_leaves = 8
-    def __init__(self, aname, asalary, arole):  # This is constructor, called by default
+    def __init__(self, aname, asalary, arole):  # cls(params[0],params[1],params[2] .This is constructor, called by default
         self.name = aname       # name is instance variable and aname is just an argument
         self.salary = asalary
         self.role = arole
@@ -15,7 +15,7 @@ class Employee:
     # @classmethod
     # def from_str(cls, string):
     #     params = string.split("-")
-    #     return cls(params[0],params[1],params[2
+    #     return cls(params[0],params[1],params[2] # this is passed to __init__
 
     @classmethod            # another way of writing it, #Alernative constructor
     def from_str(cls, string):
