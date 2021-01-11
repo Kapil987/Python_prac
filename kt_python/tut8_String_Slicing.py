@@ -1,4 +1,5 @@
 #6.	String Slicing And Other Functions In Python  # 
+
 # Search in string, its a datatype
 #-14                             -3 -2 -1
 #  W e     r i s e      a s      o  n  e
@@ -21,10 +22,12 @@ mystr = "We rise as one" # indexation starts from zero
 # print(mystr[10:14]) # then ?
 
 #confusing case # Solution :convert to positive
-# print(mystr[-1:-3])
-# print(mystr[13:11])
-# print(mystr[-1:])
+# print(mystr[-1:-3]) #14-1 = 13 , 14-3 = 11 # converts to [-1:-3:1] last :1 for forward direction 
+# print(mystr[13:11]) # -1(13)--start to -3(11)--end its backward direction but last ":"  
+# print(mystr[-1:])   # is takes as ":1" ie forward so conflict and no ouput
+                      # for output give ":-1" ie. backward direction,
 
+##Conclusion: start and end parameter should match the direction ie stride
 
 # Extented Slicing
 # # 3rd parameter stride, which refers to how many characters to move forward
@@ -48,8 +51,9 @@ mystr = "We rise as one"
 # print(mystr[::-2])
 
 # String functions
-str2 = "hello second" # before
-str2 = "hello one"      # after
+str1 = "hello second"
+str2 = "hello one"
+str3 = "123"
 
 # print(type(str2))
 
@@ -57,7 +61,7 @@ str2 = "hello one"      # after
 # print(str2.endswith("one"))
 # print(str2.count("e"))
 # print(str2.capitalize()) # first letter would be capital
-# print(str2.find("n"))
+# print(str2.find("n")) # count start from zero
 # print(str2.replace("second","one"))
 # str2[0] = 'g'
 

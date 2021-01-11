@@ -29,6 +29,12 @@ Name is {self.name} , Salary is {self.salary} and Role is {self.role}"
 ram = Employee("vijay",100,"Tutor")
 # ram.print_obj()
 print(ram)
+print(str(ram)) # even if str is called and str is not present repr gets called if present
+# print(repr(ram)) # explicit call to repr
 
 ## Conclusion
-# 1. if __str__ is not present __repr__ is called 
+# 1. if __str__ is not present __repr__ is called
+# 2. even if explicit call is made to str and str is not present
+#  repr gets called if present
+
+

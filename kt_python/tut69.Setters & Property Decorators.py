@@ -44,6 +44,8 @@
 # alya.lname = "Kapoor" 
 # # print(alya.email()) 
 
+## once decorator @porperty is used you can't use alya.email() as a function call
+# will be using as a normal variable call -- alya.email 
 ## What if i dont want to run email() function ?
 ## i want to give email as a attribute, answer: use decorator propertly at email
 # print(alya.email)   
@@ -87,7 +89,7 @@ print(alya.lname)
 print(alya.email)
 
 ## Now i want to delete alya.email
-del alya.email ## error! Soluiton is to make deleter decorator
+del alya.email ## error! as its searching for deleter, Soluiton is to make deleter decorator
 print(alya.email)   # now i dont want non.none@company_name.com
 ## Solution add these to @property  if self.fname == None or self.lname == None:
 #                                   return "Email is not set"

@@ -10,6 +10,7 @@ var3 = 35.7             # float
 var4 = "Automation"
 var5 = "60"
 var6 = "40"
+var7 = "50.5"
 
 ## Lets confirm with python
 # print(type(var1))
@@ -27,6 +28,11 @@ var6 = "40"
 
 ## let me introduce typecasting
 # print(int(var5) + int(var6))
+
+## Let try this one out
+# print(int(var3) + int(var7))  # Error! you want it to be integer but it became float
+## solution # https://www.geeksforgeeks.org/what-is-the-meaning-of-invalid-literal-for-int-with-base/
+# print(int(var3) + int(float(var7))) 
 # print (10 * "Hello World \n") # instead of writing it 10 times we write this way
 
 

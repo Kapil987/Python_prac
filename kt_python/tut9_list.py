@@ -53,7 +53,7 @@ num = [2, 7, 5, 11, 3]
 ## Tupel
 tp = (1, 2, 3)
 # tup = (1,)    # (1,) when declaring single tupple
-# print(tp)
+# print(tp[0])
 # tp[2] = 22    #TypeError: 'tuple' object does not support item assignment
                 ## Thus shows tupple is immutable
 # print(tp)
