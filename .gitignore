@@ -78,3 +78,24 @@ kt_python/words.py
 kt_python/workspace.code-workspace
 kt_python/test3.yml
 test3.yml
+
+
+kt_python/__pycache__/test.cpython-38.pyc
+kt_python/Decorator/__pycache__/deco.cpython-38.pyc
+kt_python/files_and_import/__pycache__/fun1.cpython-38.pyc
+python deploy/Python application docker deploy/__pycache__/calc.cpython-38.pyc
+kt_python/files_and_import/__pycache__/fun2.cpython-38.pyc
+kt_python/Decorator/__pycache__/test.cpython-38.pyc
+kt_python/Decorator/__pycache__/decorator.cpython-38.pyc
+kt_python/__pycache__/tut46_if__name__file_CALLED.cpython-38.pyc
+kt_python/ii
+
+kt_python/test3.py
+kt_python/test4.py
+kt_python/test5.py
+kt_python/test6.py
+
+kt_python/docker-compose.yml
+python deploy/Python application docker deploy/Jenkinsfile
+kt_python/demo.txt
+kt_python/demo.txt

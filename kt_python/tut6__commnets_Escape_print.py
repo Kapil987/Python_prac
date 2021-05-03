@@ -1,4 +1,3 @@
-
 ## Writing Our First Python Program   
 # print ("Hello World")
 
@@ -16,7 +15,7 @@ print("Good Afternoon")
 ## Escape sequence charactors \n , \ , \t , http://python-ds.com/python-3-escape-sequences
 
 # print ("C:\\nKapil") # \n , \\ result to new single \
-# print (r"C:\\nKapil") # raw string
+# print (r"C:\nKapil") # raw string
 # print("lets print new line character= \\n, you see that")
 # print('\"hye') # print double quotes single time
 # print ("Kapil is \na Good \tBoy")

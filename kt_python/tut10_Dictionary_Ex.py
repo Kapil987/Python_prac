@@ -1,5 +1,5 @@
 #Dictionay : is a combination of key and value pairs, represented by {}, its case sensitive,
-# list, tupple , dict, keys immutable
+# list, dictionary,  are mutable
 
 # Empty Dictionary
 # d1 = {}
@@ -33,7 +33,7 @@ d4 = d3.copy()  # d3--> 100(Kapil) , d4 --> 200 (kapil)
 del d3["Ankit"]
 # print(d3)
 # print(d4)
-d3.update({"ramu":"Chocolate"})
+d3.update({"ramu":"Chocolate"}) # exising value can also be changed as d2.update({'Kapil':'choco'})
 # print(d3)
 # print(d3.get("ramu"))
 print(d3.keys())

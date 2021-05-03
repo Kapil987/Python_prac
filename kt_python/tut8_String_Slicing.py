@@ -62,7 +62,7 @@ str3 = "123"
 # print(str2.count("e"))
 # print(str2.capitalize()) # first letter would be capital
 # print(str2.find("n")) # count start from zero
-# print(str2.replace("second","one"))
+# print(str2.replace("second","one")) # replaces all occurences
 # str2[0] = 'g'
 
 ## f string in python

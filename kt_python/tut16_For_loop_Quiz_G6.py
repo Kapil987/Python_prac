@@ -41,4 +41,39 @@ dict1 = dict(list3)         #Type casting list to dictionary
 ## Quiz : Print only numbers which are greater than 6 from a list
 # list4 = [1,'golu', int, float, 10]
 
+## Quiz : Taking input list of list and add individual list, print only the max value from addition of list
+
+"""
+list1=[ [4,6] , [2,4], [1,2] ]
+
+## Separating individual list from list of list
+def sep_item(val):
+  for item in val:
+    add_list(item) # calling add_list
+    # print(item)
+
+## Taking global variables
+count = 0
+list_sum = []
+
+## Adding individual lists
+def add_list(num_list):
+  a = 0
+  global count
+  global list_sum
+  for i in num_list:
+    a = i + a
+  count = count + 1
+  list_sum.append(a)
+  print(f'sum{count}: ',a)
+
+sep_item(list1)
+
+## Sorting list so the max value comes at the end or you can use max function
+list_sum.sort()
+print(list_sum[-1])
+# print(max(list_sum))
+
+"""
+
     

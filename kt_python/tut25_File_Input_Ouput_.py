@@ -8,6 +8,7 @@
 "b" - Binary mode
 "+" - Read and Write
 """
+## for read mode file should already exist, for write mode if file is not present it will create a file
 
 ## To read a file will need a file pointer
 # open("demo.txt") # no use of this open so will file pointer

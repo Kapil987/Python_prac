@@ -1,4 +1,5 @@
-# ## file write operation
+# ## file write operation , w+ only allowing for write not for giving output for read, r+ is equivalent to append
+# a only allows us to write, a+ allows for read and write
 # f = open("demo.txt",'w')            # opened in write mode, if not present it will create
 # count = f.write("life is an adventurer 3rd\n")    # returns number of characters written
 # print(count)
