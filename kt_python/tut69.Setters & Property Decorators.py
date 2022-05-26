@@ -50,7 +50,7 @@
 ## i want to give email as a attribute, answer: use decorator propertly at email
 # print(alya.email)   
 
-## let say i want to give input to email and it change first and last name
+## let say i want to give input as email and it change first and last name
 ## Example 3: Solution is Setter
 
 class Employee:
@@ -89,7 +89,7 @@ print(alya.lname)
 print(alya.email)
 
 ## Now i want to delete alya.email
-del alya.email ## error! as its searching for deleter, Soluiton is to make deleter decorator
-print(alya.email)   # now i dont want non.none@company_name.com
+del alya.email ## error! as its searching for deleter, Solution is to make deleter decorator
+print(alya.email)   # now i dont want none.none@company_name.com
 ## Solution add these to @property  if self.fname == None or self.lname == None:
 #                                   return "Email is not set"

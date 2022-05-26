@@ -39,3 +39,19 @@ def who_is_kapil():            # = nowexec
 who_is_kapil()      #who_is_kapil = nowexec()
 
 # print(who_is_kapil)
+
+## Example to understand decorator better
+# def dec1(fun1):
+#     def inside():
+#         print('Before')
+#         fun1()
+#         print('After')
+#     return inside
+
+# @dec1
+# def simple():
+#     print('this is simple')
+
+# # simple = dec1(simple)
+
+# simple()

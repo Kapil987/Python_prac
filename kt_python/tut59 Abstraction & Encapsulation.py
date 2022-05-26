@@ -1,34 +1,34 @@
-## Abstraction means wrapper, a layer,  example print func, mouse, windows etc
-# example when designing a game, programmer 1 design a play , prog 2 design city or car
-## Encapsulation : To achieve Abstration we need or we do encapsulation meaning hiding details,
-# capsule inside medicine works, how it works you are not bothered about it.
+# Abstraction : wrapping a layer, example print function, mouse, windows etc, when designing 
+# a game, programmer 1 design a play, prog 2 design city or car
+## Encapsulation: to achieve abstraction we need or we do encapsulatoin meaning hiding details,
+# capsule inside medicine works, how it works you are not bothered about it
 # hiding implementation details
+# example https://blog.teclado.com/python-abc-abstract-base-classes/
 
-## Example Syntax
-# from abc import ABC
-# Class ClassName(ABC):
-
+# abc is a builtin module, we have to import ABC and abstractmethod
 from abc import ABC, abstractmethod
-class Payment(ABC):
-    def print_slip(self, amount):
-        print('Purchase of amount- ', amount)
-    @abstractmethod
+class Payment(ABC): # Inherit from ABC(Abstract base class)
+    def print_slip(self,amount):
+        print('Purchase of amount: ', amount)
+    
+    @abstractmethod # Decorator to define an abstract method
     def payment(self, amount):
         pass
 
-class CreditCardPayment(Payment): #add remove Payment to notice isinstance funtion
+class CreditCardPayment(Payment): # Inherit from Payment class
     def payment(self, amount):
-        print('Credit card payment of- ', amount)
+        print('Credit card payment of- ',amount)
 
-class MobileWalletPayment(Payment):
+class MobileWallerPayment(Payment):
     def payment(self, amount):
-        print('Mobile wallet payment of- ', amount)
+        print('Mobile wallet payment of -',amount)
 
-class UPI(Payment): 
-    def abc():
-        print("abc")
+class UPI(Payment): # If you inherit from the Payment class 
+    def abc():      # # but don't implement the abstract methods, you'll get an error:
+        print('abc')
 
-obj = UPI()
+# obj = UPI()
+# obj = CreditCardPayment()
 
 obj = CreditCardPayment()
 obj.payment(100)
