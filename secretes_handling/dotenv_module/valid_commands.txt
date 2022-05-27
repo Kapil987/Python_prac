@@ -1,0 +1,4 @@
+yum install tree -y
+yum install net-tools -y
+service firewalld status
+/bin

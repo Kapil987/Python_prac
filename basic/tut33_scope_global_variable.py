@@ -55,17 +55,17 @@
 
 ## Question ?, there is nothing in global area
 
-# def outer():
-#     x = 20      # local variable
-#     def inside():
-#         global x
-#         x = 88
-#     print("before calling inside: ",x)  #88 #20
-#     inside()
-#     print("After calling inside: ",x)   #88 #20
+def outer():
+    x = 20      # local variable
+    def inside():
+        global x
+        x = 88
+    print("before calling inside: ",x)  #88 #20
+    inside()
+    print("After calling inside: ",x)   #88 #20
 
-# outer()
-# print("outside: ",x)    #88
+outer()
+print("outside: ",x)    #88
 
 ## Question
 # x = 100

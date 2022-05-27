@@ -1,5 +1,5 @@
-# Mutable: Numbers (int, float, Booleans,etc), Strings, Tuples, Frozen sets, User-Defined Classes
-# Immutable: List, sets, Dictionaries, User-defined Classes
+# Mutable: List, Numbers (int, float, Booleans,etc), sets, User-Defined Classes
+# Immutable: Strings, Tuples, Frozen sets, Dictionaries, User-defined Classes
 # Mutable(Can Change) are easy to change
 # Immutable(Cannot Change) are expensive to change because it involves creation of copy
 

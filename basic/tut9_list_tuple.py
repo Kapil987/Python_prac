@@ -50,7 +50,7 @@ num = [2, 7, 5, 11, 3]
 # num[1] = 10
 # print(num) 
 
-## Tupel
+## Tuple
 tp = (1, 2, 3)
 # tup = (1,)    # (1,) when declaring single tupple
 # print(tp[0])
@@ -59,6 +59,10 @@ tp = (1, 2, 3)
 # print(tp)
 # print(type(tp))
 # print(type(tup))
+
+## 2D tuple
+# secret_tuple = (('a','1'),('b','2'))
+# print(secret_tuple[0][1])
 
 ## Swapping of two numbers
 a = 10
