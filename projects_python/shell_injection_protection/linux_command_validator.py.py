@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 import subprocess
 import os
 import re
@@ -8,7 +8,7 @@ import sys
 def valid_commands_fun():
     global command
     command = []
-    with open('valid_commands', 'r') as f:
+    with open('valid_commands.txt', 'r') as f:
         temp = f.readlines()  # has the list with elements having \n
         for items in temp:
             command.append(items.strip('\n'))
@@ -17,7 +17,7 @@ def valid_commands_fun():
 def check_commands(validate):
     global check
     check = []
-    with open('wild_commands', 'r') as f:
+    with open('wild_commands.txt', 'r') as f:
         temp = f.readlines()  # has the list with elements having \n
         for items in temp:
             check.append(items.strip('\n'))
